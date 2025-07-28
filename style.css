@@ -1,3 +1,8 @@
+#progress-percent {
+  color: white;
+  font-size: 18px;
+  margin-top: 8px;
+}
 .banner {
   position: relative;
   height: 250px;
@@ -44,13 +49,15 @@ body {
   color: white;
   margin: 30px;
   border: #4b4b51 0.5px solid;
-  background-color: #4b4b51;
+  background-color: #2f2f33;
   font-size: 20px;
 }
 .todo {
   color: white;
   margin: 30px;
   border: 1px solid #4b4b51;
+  height: fit-content;
+  width: fit-content;
 }
 h2 {
   margin: 10px;
@@ -94,6 +101,30 @@ input[type="checkbox"]:checked::after {
 .todo label {
   margin-left: 10px;
 }
+
+.todo-progress {
+  display: flex;
+  align-items: flex-start;
+}
+.progress-section {
+  border: 1px solid #2f2f33;
+  padding: 32px;
+  margin-top: 30px;
+  margin-left: 32px;
+}
+
+#progress-bar {
+  width: 200px;
+  height: 30px;
+}
+.progress-section label {
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+  display: block;
+  margin-bottom: 10px;
+}
+
 @media (max-width: 600px) {
   .banner {
     height: 140px;

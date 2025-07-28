@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css" />
     <script src="main.js"></script>
   </head>
+   
   <body>
     <!--Banner section-->
     <div class="banner">
@@ -24,18 +25,26 @@
     </div>
     <hr>
     <!--Things section-->
-    <div class="todo">
-      <h2> things need to cook 👨🏻‍🍳</h2>
-      <form>
-        <input type="checkbox" id="todo1" name="todo1" value="cook">
-        <label for="todo1">cook</label><br>
-        <input type="checkbox" id="todo2" name="todo2" value="clean">
-        <label for="todo2">Clean</label><br>
-        <input type="checkbox" id="todo3" name="todo3" value="exercise">
-        <label for="todo3">Exercise</label><br>
-        <input type="checkbox" id="todo4" name="todo4" value="read">
-        <label for="todo4">Read</label><br>
-      </form>
+    <div class="todo-progress"> 
+      <div class="todo">
+        <h2> things need to cook 👨🏻‍🍳</h2>
+          <form>
+            <input type="checkbox" id="todo1" name="todo1" value="cook">
+            <label for="todo1">cook</label><br>
+            <input type="checkbox" id="todo2" name="todo2" value="clean">
+            <label for="todo2">Clean</label><br>
+            <input type="checkbox" id="todo3" name="todo3" value="exercise">
+            <label for="todo3">Exercise</label><br>
+            <input type="checkbox" id="todo4" name="todo4" value="read">
+            <label for="todo4">Read</label><br>
+          </form>
+      </div>
+    <!--Progress Bar-->
+      <div class="progress-section" >
+      <label>Progress Bar</label>
+      <progress id="progress-bar" value="0" max="100"></progress>
+      <div id="progress-percent"></div>
+   </div>
     </div>
   </body>
 </html>
