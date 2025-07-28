@@ -25,7 +25,7 @@ It’s built for devs, students, and anyone who wants to beat procrastination an
 
 ## 🌐 Live Demo
 
-> Coming soon... (or drop a link if hosted via Vercel, Netlify, etc.)
+> https://focushub-v0.netlify.app/
 
 ---
 
