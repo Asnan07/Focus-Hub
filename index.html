@@ -15,6 +15,11 @@
       <img src="photos/pfp.jpg" alt="profile picture" class="pfp" />
     </div>
     <!--welcome-->
+    <div class="light-mode">
+      <button id="light-mode-btn">
+        <img src="/icons/light-mode.png" alt="light mode icon">
+      </button>
+    </div>
     <div class="welcome">
       <h1>welcome home, asnan</h1>
       <!--<p>Did you drink water?.</p> -->
@@ -27,24 +32,25 @@
     <!--Things section-->
     <div class="todo-progress"> 
       <div class="todo">
-        <h2> things need to cook 👨🏻‍🍳</h2>
-          <form>
-            <input type="checkbox" id="todo1" name="todo1" value="cook">
-            <label for="todo1">cook</label><br>
-            <input type="checkbox" id="todo2" name="todo2" value="clean">
-            <label for="todo2">Clean</label><br>
-            <input type="checkbox" id="todo3" name="todo3" value="exercise">
-            <label for="todo3">Exercise</label><br>
-            <input type="checkbox" id="todo4" name="todo4" value="read">
-            <label for="todo4">Read</label><br>
-          </form>
+        <div class="todo-header">
+           <h2>things to cook 👨‍🍳...</h2>
+           <div class="add-task">
+            <input type="text" id="new-task-input" placeholder="add here..."/>
+             <button id="add-task-btn">+ create</button>
+        </div>
+        </div>
+        <ul id="todo-list" style="list-style: none; padding-left: 0; margin: 0;"></ul>
+          
       </div>
     <!--Progress Bar-->
       <div class="progress-section" >
-      <label>Progress Bar</label>
+      <label>progress 💪</label>
       <progress id="progress-bar" value="0" max="100"></progress>
       <div id="progress-percent"></div>
    </div>
-    </div>
+
+
+    <!--Pomodoro implementation-->
+    <!---->
   </body>
 </html>
