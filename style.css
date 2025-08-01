@@ -423,6 +423,6 @@ input[type="checkbox"]:checked::after {
 }
 @media (max-width: 600px) {
   .todo {
-    width: 90%;
+    width: 80%;
   }
 }
