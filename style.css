@@ -224,7 +224,6 @@ h2 {
 input[type="checkbox"]:checked + label {
   text-decoration: line-through;
   color: #4b4b51;
-  font-style: italic;
   vertical-align: middle;
   line-height: 1.2em;
   display: inline-block;
