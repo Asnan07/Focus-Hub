@@ -400,7 +400,7 @@ input[type="checkbox"]:checked::after {
     font-size: 1em;
   }
   body {
-    font-size: 16px;
+    font-size: 17px;
   }
 }
 @media (max-width: 600px) {
